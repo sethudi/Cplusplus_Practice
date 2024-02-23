@@ -1,0 +1,249 @@
+Info: Nothing to build for OutputtingText
+14:04:55 **** Incremental Build of configuration Debug for project OutputtingText ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\OutputtingText.o" "..\\src\\OutputtingText.cpp" 
+g++ -o OutputtingText.exe "src\\OutputtingText.o" 
+14:05:14 **** Incremental Build of configuration Debug for project OutputtingText ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\OutputtingText.o" "..\\src\\OutputtingText.cpp" 
+g++ -o OutputtingText.exe "src\\OutputtingText.o" 
+Info: Nothing to build for OutputtingText
+14:21:53 **** Rebuild of configuration Debug for project Variables ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Variables.o" "..\\src\\Variables.cpp" 
+g++ -o Variables.exe "src\\Variables.o" 
+14:21:59 **** Incremental Build of configuration Debug for project Variables ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Variables.o" "..\\src\\Variables.cpp" 
+g++ -o Variables.exe "src\\Variables.o" 
+Info: Nothing to build for Variables
+15:35:17 **** Rebuild of configuration Debug for project UserInput ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\UserInput.o" "..\\src\\UserInput.cpp" 
+g++ -o UserInput.exe "src\\UserInput.o" 
+15:35:48 **** Incremental Build of configuration Debug for project UserInput ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\UserInput.o" "..\\src\\UserInput.cpp" 
+g++ -o UserInput.exe "src\\UserInput.o" 
+16:03:08 **** Rebuild of configuration Debug for project IntegerTypes ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\IntegerTypes.o" "..\\src\\IntegerTypes.cpp" 
+..\src\IntegerTypes.cpp: In function 'int main()':
+..\src\IntegerTypes.cpp:18:31: error: 'INT_MAX' was not declared in this scope
+   cout << "Max int value: "<< INT_MAX << endl;
+                               ^~~~~~~
+..\src\IntegerTypes.cpp:19:31: error: 'INT_MIN' was not declared in this scope
+   cout << "Min int value: "<< INT_MIN << endl;
+                               ^~~~~~~
+..\src\IntegerTypes.cpp:21:21: warning: overflow in implicit constant conversion [-Woverflow]
+   long int lValue = 2345325345345;
+                     ^~~~~~~~~~~~~
+16:04:47 **** Incremental Build of configuration Debug for project IntegerTypes ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\IntegerTypes.o" "..\\src\\IntegerTypes.cpp" 
+..\src\IntegerTypes.cpp: In function 'int main()':
+..\src\IntegerTypes.cpp:22:21: warning: overflow in implicit constant conversion [-Woverflow]
+   long int lValue = 2345325345345;
+                     ^~~~~~~~~~~~~
+g++ -o IntegerTypes.exe "src\\IntegerTypes.o" 
+16:04:56 **** Incremental Build of configuration Debug for project IntegerTypes ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\IntegerTypes.o" "..\\src\\IntegerTypes.cpp" 
+..\src\IntegerTypes.cpp: In function 'int main()':
+..\src\IntegerTypes.cpp:22:20: warning: overflow in implicit constant conversion [-Woverflow]
+  long int lValue = 2345325345345;
+                    ^~~~~~~~~~~~~
+g++ -o IntegerTypes.exe "src\\IntegerTypes.o" 
+16:05:23 **** Incremental Build of configuration Debug for project IntegerTypes ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\IntegerTypes.o" "..\\src\\IntegerTypes.cpp" 
+..\src\IntegerTypes.cpp: In function 'int main()':
+..\src\IntegerTypes.cpp:22:20: warning: overflow in implicit constant conversion [-Woverflow]
+  long int lValue = 2345325345345;
+                    ^~~~~~~~~~~~~
+g++ -o IntegerTypes.exe "src\\IntegerTypes.o" 
+16:27:45 **** Rebuild of configuration Debug for project FloatingPointTypes ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\FloatingPointTypes.o" "..\\src\\FloatingPointTypes.cpp" 
+g++ -o FloatingPointTypes.exe "src\\FloatingPointTypes.o" 
+Info: Nothing to build for FloatingPointTypes
+16:41:41 **** Rebuild of configuration Debug for project CharAndBool ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CharAndBool.o" "..\\src\\CharAndBool.cpp" 
+g++ -o CharAndBool.exe "src\\CharAndBool.o" 
+Info: Nothing to build for CharAndBool
+16:46:06 **** Incremental Build of configuration Debug for project CharAndBool ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CharAndBool.o" "..\\src\\CharAndBool.cpp" 
+g++ -o CharAndBool.exe "src\\CharAndBool.o" 
+19:43:15 **** Rebuild of configuration Debug for project ComparingFloats ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ComparingFloats.o" "..\\src\\ComparingFloats.cpp" 
+g++ -o ComparingFloats.exe "src\\ComparingFloats.o" 
+19:43:23 **** Incremental Build of configuration Debug for project ComparingFloats ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ComparingFloats.o" "..\\src\\ComparingFloats.cpp" 
+g++ -o ComparingFloats.exe "src\\ComparingFloats.o" 
+19:44:17 **** Incremental Build of configuration Debug for project ComparingFloats ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ComparingFloats.o" "..\\src\\ComparingFloats.cpp" 
+g++ -o ComparingFloats.exe "src\\ComparingFloats.o" 
+20:14:07 **** Rebuild of configuration Debug for project Arrays ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Arrays.o" "..\\src\\Arrays.cpp" 
+g++ -o Arrays.exe "src\\Arrays.o" 
+Info: Nothing to build for Arrays
+09:08:55 **** Rebuild of configuration Debug for project MultidimensionalArrays ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\MultidimensionalArrays.o" "..\\src\\MultidimensionalArrays.cpp" 
+g++ -o MultidimensionalArrays.exe "src\\MultidimensionalArrays.o" 
+Info: Nothing to build for MultidimensionalArrays
+09:27:47 **** Rebuild of configuration Debug for project Functions ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Functions.o" "..\\src\\Functions.cpp" 
+g++ -o Functions.exe "src\\Functions.o" 
+09:27:52 **** Incremental Build of configuration Debug for project Functions ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Functions.o" "..\\src\\Functions.cpp" 
+g++ -o Functions.exe "src\\Functions.o" 
+09:36:29 **** Rebuild of configuration Debug for project FunctionParameters ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Functions.o" "..\\src\\Functions.cpp" 
+g++ -o FunctionParameters.exe "src\\Functions.o" 
+Info: Nothing to build for FunctionParameters
+10:18:20 **** Rebuild of configuration Debug for project Classes ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cat.o" "..\\src\\Cat.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Classes.o" "..\\src\\Classes.cpp" 
+g++ -o Classes.exe "src\\Cat.o" "src\\Classes.o" 
+10:18:24 **** Incremental Build of configuration Debug for project Classes ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Classes.o" "..\\src\\Classes.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cat.o" "..\\src\\Cat.cpp" 
+g++ -o Classes.exe "src\\Cat.o" "src\\Classes.o" 
+11:14:00 **** Rebuild of configuration Debug for project ConstructorsAndDestractors ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cat.o" "..\\src\\Cat.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ConstructorsAndDestractors.o" "..\\src\\ConstructorsAndDestractors.cpp" 
+g++ -o ConstructorsAndDestractors.exe "src\\Cat.o" "src\\ConstructorsAndDestractors.o" 
+Info: Nothing to build for ConstructorsAndDestractors
+13:50:41 **** Rebuild of configuration Debug for project ConstructorOverloading ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Person.o" "..\\src\\Person.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ConstructorOverloading.o" "..\\src\\ConstructorOverloading.cpp" 
+g++ -o ConstructorOverloading.exe "src\\ConstructorOverloading.o" "src\\Person.o" 
+Info: Nothing to build for ConstructorOverloading
+14:05:20 **** Rebuild of configuration Debug for project ThisKeyword ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Person.o" "..\\src\\Person.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ThisKeyword.o" "..\\src\\ThisKeyword.cpp" 
+g++ -o ThisKeyword.exe "src\\Person.o" "src\\ThisKeyword.o" 
+Info: Nothing to build for ThisKeyword
+14:08:02 **** Incremental Build of configuration Debug for project ThisKeyword ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Person.o" "..\\src\\Person.cpp" 
+g++ -o ThisKeyword.exe "src\\Person.o" "src\\ThisKeyword.o" 
+09:05:14 **** Rebuild of configuration Debug for project Pointers ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pointers.o" "..\\src\\Pointers.cpp" 
+g++ -o Pointers.exe "src\\Pointers.o" 
+Info: Nothing to build for Pointers
+09:30:26 **** Rebuild of configuration Debug for project PointersAndArrays ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\PointersAndArrays.o" "..\\src\\PointersAndArrays.cpp" 
+..\src\PointersAndArrays.cpp: In function 'int main()':
+..\src\PointersAndArrays.cpp:18:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for (int i = 0; i < sizeof(texts) / sizeof(string); i++) {
+                  ~~^~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\PointersAndArrays.cpp:24:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for (int i = 0; i < sizeof(texts) / sizeof(string); i++, pTexts++) {
+                  ~~^~~~~~~~~~~~~~~~~~~~~~~~~
+g++ -o PointersAndArrays.exe "src\\PointersAndArrays.o" 
+Info: Nothing to build for PointersAndArrays
+10:03:58 **** Rebuild of configuration Debug for project CharAndArrays ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CharAndArrays.o" "..\\src\\CharAndArrays.cpp" 
+..\src\CharAndArrays.cpp: In function 'int main()':
+..\src\CharAndArrays.cpp:17:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0; i<sizeof(texts); i++) {
+               ~^~~~~~~~
+g++ -o CharAndArrays.exe "src\\CharAndArrays.o" 
+Info: Nothing to build for CharAndArrays
+10:23:13 **** Rebuild of configuration Debug for project References ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\References.o" "..\\src\\References.cpp" 
+g++ -o References.exe "src\\References.o" 
+Info: Nothing to build for References
+15:15:26 **** Rebuild of configuration Debug for project CopyConstructors ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CopyConstructors.o" "..\\src\\CopyConstructors.cpp" 
+g++ -o CopyConstructors.exe "src\\CopyConstructors.o" 
+Info: Nothing to build for CopyConstructors
+15:37:53 **** Rebuild of configuration Debug for project NewOperator ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\NewOperator.o" "..\\src\\NewOperator.cpp" 
+g++ -o NewOperator.exe "src\\NewOperator.o" 
+Info: Nothing to build for NewOperator
+16:08:20 **** Rebuild of configuration Debug for project ReturningObjectsFromMethods ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ReturningObjectsFromMethods.o" "..\\src\\ReturningObjectsFromMethods.cpp" 
+g++ -o ReturningObjectsFromMethods.exe "src\\ReturningObjectsFromMethods.o" 
+Info: Nothing to build for ReturningObjectsFromMethods
+16:09:39 **** Incremental Build of configuration Debug for project ReturningObjectsFromMethods ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ReturningObjectsFromMethods.o" "..\\src\\ReturningObjectsFromMethods.cpp" 
+g++ -o ReturningObjectsFromMethods.exe "src\\ReturningObjectsFromMethods.o" 
+Info: Nothing to build for ReturningObjectsFromMethods
+Info: Nothing to build for ReturningObjectsFromMethods
+13:37:41 **** Rebuild of configuration Debug for project ArraysAndFunctions ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArraysAndFunctions.o" "..\\src\\ArraysAndFunctions.cpp" 
+..\src\ArraysAndFunctions.cpp: In function 'void show3(std::__cxx11::string (&)[3])':
+..\src\ArraysAndFunctions.cpp:36:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0; i<sizeof(texts)/sizeof(string); i++) {
+               ~^~~~~~~~~~~~~~~~~~~~~~
+g++ -o ArraysAndFunctions.exe "src\\ArraysAndFunctions.o" 
+13:38:45 **** Incremental Build of configuration Debug for project ArraysAndFunctions ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArraysAndFunctions.o" "..\\src\\ArraysAndFunctions.cpp" 
+g++ -o ArraysAndFunctions.exe "src\\ArraysAndFunctions.o" 
+14:09:47 **** Rebuild of configuration Debug for project Namespaces ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Namespaces.o" "..\\src\\Namespaces.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Animals.o" "..\\src\\Animals.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cat.o" "..\\src\\Cat.cpp" 
+g++ -o Namespaces.exe "src\\Animals.o" "src\\Cat.o" "src\\Namespaces.o" 
+Info: Nothing to build for Namespaces
+15:53:49 **** Rebuild of configuration Debug for project Inheritance ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Inheritance.o" "..\\src\\Inheritance.cpp" 
+g++ -o Inheritance.exe "src\\Inheritance.o" 
+Info: Nothing to build for Inheritance
+16:05:26 **** Rebuild of configuration Debug for project Encapsulation ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Encapsulation.o" "..\\src\\Encapsulation.cpp" 
+g++ -o Encapsulation.exe "src\\Encapsulation.o" 
+16:08:49 **** Incremental Build of configuration Debug for project Encapsulation ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Encapsulation.o" "..\\src\\Encapsulation.cpp" 
+g++ -o Encapsulation.exe "src\\Encapsulation.o" 
+16:24:47 **** Rebuild of configuration Debug for project ConstructorInheritance ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ConstructorInheritance.o" "..\\src\\ConstructorInheritance.cpp" 
+g++ -o ConstructorInheritance.exe "src\\ConstructorInheritance.o" 
+16:24:50 **** Incremental Build of configuration Debug for project ConstructorInheritance ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ConstructorInheritance.o" "..\\src\\ConstructorInheritance.cpp" 
+g++ -o ConstructorInheritance.exe "src\\ConstructorInheritance.o" 
+10:59:10 **** Rebuild of configuration Debug for project Static ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Static.o" "..\\src\\Static.cpp" 
+g++ -o Static.exe "src\\Static.o" 
+Info: Nothing to build for Static
+17:06:35 **** Rebuild of configuration Debug for project Polymorphism ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Polymorphism.o" "..\\src\\Polymorphism.cpp" 
+g++ -o Polymorphism.exe "src\\Polymorphism.o" 
+Info: Nothing to build for Polymorphism
+Info: Nothing to build for Polymorphism
+Info: Nothing to build for Polymorphism

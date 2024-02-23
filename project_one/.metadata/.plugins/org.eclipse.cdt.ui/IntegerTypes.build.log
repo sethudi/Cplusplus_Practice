@@ -1,0 +1,11 @@
+16:05:23 **** Incremental Build of configuration Debug for project IntegerTypes ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\IntegerTypes.o" "..\\src\\IntegerTypes.cpp" 
+..\src\IntegerTypes.cpp: In function 'int main()':
+..\src\IntegerTypes.cpp:22:20: warning: overflow in implicit constant conversion [-Woverflow]
+  long int lValue = 2345325345345;
+                    ^~~~~~~~~~~~~
+g++ -o IntegerTypes.exe "src\\IntegerTypes.o" 
+
+16:05:24 Build Finished. 0 errors, 1 warnings. (took 851ms)
+

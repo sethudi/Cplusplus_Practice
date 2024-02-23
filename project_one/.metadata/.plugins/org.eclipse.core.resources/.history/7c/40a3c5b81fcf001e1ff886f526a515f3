@@ -1,0 +1,12 @@
+/*
+ * Animals.cpp
+ *
+ *  Created on: 19 Feb 2024
+ *      Author: stmap
+ */
+
+#include "Animals.h"
+
+namespace jwp {
+
+} /* namespace jwp */

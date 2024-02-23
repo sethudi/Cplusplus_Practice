@@ -1,0 +1,7 @@
+19:44:17 **** Incremental Build of configuration Debug for project ComparingFloats ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ComparingFloats.o" "..\\src\\ComparingFloats.cpp" 
+g++ -o ComparingFloats.exe "src\\ComparingFloats.o" 
+
+19:44:18 Build Finished. 0 errors, 0 warnings. (took 963ms)
+

@@ -1,0 +1,7 @@
+14:08:02 **** Incremental Build of configuration Debug for project ThisKeyword ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Person.o" "..\\src\\Person.cpp" 
+g++ -o ThisKeyword.exe "src\\Person.o" "src\\ThisKeyword.o" 
+
+14:08:03 Build Finished. 0 errors, 0 warnings. (took 537ms)
+

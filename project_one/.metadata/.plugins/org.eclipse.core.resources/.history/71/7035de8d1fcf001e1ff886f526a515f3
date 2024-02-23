@@ -1,0 +1,18 @@
+/*
+ * Cat.h
+ *
+ *  Created on: 19 Feb 2024
+ *      Author: stmap
+ */
+
+#ifndef CAT_H_
+#define CAT_H_
+
+namespace cats {
+
+class Cat {
+};
+
+} /* namespace cats */
+
+#endif /* CAT_H_ */

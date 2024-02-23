@@ -1,0 +1,14 @@
+/*
+ * Person.h
+ *
+ *  Created on: 16 Feb 2024
+ *      Author: stmap
+ */
+
+#ifndef PERSON_H_
+#define PERSON_H_
+
+class Person {
+};
+
+#endif /* PERSON_H_ */
